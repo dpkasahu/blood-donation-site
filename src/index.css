@@ -1,0 +1,94 @@
+/* Reset & Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1588776814546-ec07aa5d0cfc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  color: #6f3a3a;
+  backdrop-filter: blur(2px);
+}
+
+/* Overlay for better readability */
+.container {
+  background-color: rgba(234, 149, 149, 0.5);
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1500px;
+  margin-top: 10px; /* Adjusts space between navbar and content */
+  margin-bottom: 5px;
+}
+
+
+/* Footer Styles */
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 15px;
+  color: white;
+  margin-top: 10px; /* Reduced space between footer and content */
+}
+
+/* Heading styles */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffcccb;
+}
+
+/* Form Container */
+.form-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Form input fields */
+form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+}
+
+/* Form submit button */
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff4d4d;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background-color: #cc0000;
+}
+
+/* Confirmation message */
+.confirmation-message {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #006400;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}

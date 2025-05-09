@@ -1,0 +1,67 @@
+/* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e0605; /* Blood red background */
+  padding: 10px 20px;
+  color: white;
+}
+
+/* Navbar Container for Layout */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Logo and Title Container */
+.logo-title {
+  display: flex;
+  align-items: center; /* Align logo and text horizontally */
+}
+
+.logo {
+  width: 30px; /* Adjust size of logo */
+  height: 30px;
+  margin-right: 10px; /* Space between logo and text */
+}
+
+.title {
+  display: flex;
+  flex-direction: row; /* Keep the title horizontal */
+}
+
+.blood {
+  font-size: 24px;
+  color: red; /* Blood color */
+  font-weight: bold;
+}
+
+.donation {
+  font-size: 24px;
+  color: rgb(239, 228, 228); /* Donation in black */
+  font-weight: bold;
+  margin-left: 5px; /* Adds slight space between "Blood" and "Donation" */
+}
+
+/* Navbar Links */
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #f8f9fa; /* Light color on hover */
+  transition: color 0.3s ease-in-out;
+}
