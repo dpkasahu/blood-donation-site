@@ -1,7 +1,13 @@
-import { Link } from 'react-router-dom';
-import './Home.css'; // Make sure this path matches your project structure
+import { Link, useNavigate } from 'react-router-dom';
+import './Home.css'; // Ensure this file exists
 
 const Home = () => {
+  const navigate = useNavigate();
+
+  const handleEligibilityClick = () => {
+    navigate("/eligibility");
+  };
+
   return (
     <div className="home">
       <div className="overlay">
@@ -11,7 +17,10 @@ const Home = () => {
           <blockquote>
             "The gift of blood is the gift of life. There is no substitute for human blood."
           </blockquote>
-          <Link to="/contact" className="join-btn">Join With Us</Link>
+          <button onClick={handleEligibilityClick}>
+            Donor Eligibility
+          </button>
+          <Link to="/admin" className="admin-btn">Admin Panel</Link>
         </div>
       </div>
     </div>

@@ -23,6 +23,7 @@ const DonorList = () => {
                 padding: '15px',
                 margin: '10px 0',
                 borderRadius: '8px',
+                color:'rgba(5, 0, 0, 0.84)',
                 boxShadow: '0 2px 6px rgba(0, 0, 0, 0.1)',
               }}
             >

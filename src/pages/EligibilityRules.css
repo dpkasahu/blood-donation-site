@@ -1,0 +1,46 @@
+.eligibility-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.eligibility-container h1 {
+  text-align: center;
+  color: #b30000;
+  margin-bottom: 1.5rem;
+}
+
+.eligibility-container p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #444;
+}
+
+.eligibility-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.eligibility-list li {
+  background-color: #f9f9f9;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-left: 5px solid #e60000;
+  border-radius: 6px;
+}
+
+.eligibility-list ul {
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.eligibility-list li strong {
+  color: #800000;
+}

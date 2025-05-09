@@ -28,7 +28,7 @@
 .home-content h2 {
   font-size: 2.5rem;
   margin-bottom: 15px;
-  color: #ffcccb;
+  color: #efe9e9;
 }
 
 .home-content p {
@@ -43,6 +43,7 @@
   font-size: 1.1rem;
 }
 
+/* Button styling for "Join With Us" */
 .join-btn {
   padding: 12px 25px;
   background-color: #ff4d4d;
@@ -56,3 +57,35 @@
 .join-btn:hover {
   background-color: #cc0000;
 }
+
+/* Button styling for "Admin Panel" */
+.admin-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 25px;
+  background-color: #1e3a8a; /* Dark blue */
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.admin-btn:hover {
+  background-color: #1d4ed8;
+}
+button {
+  background-color: #d9534f; /* Red button color */
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c9302c; /* Darker red on hover */
+}                                 

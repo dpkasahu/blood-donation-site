@@ -5,8 +5,10 @@ import Home from './pages/Home';
 import DonorForm from './components/DonorForm';
 import RequestForm from './components/RequestForm';
 import DonorList from './components/DonorList';
-import About from './pages/About';      // Import About from src/pages
-import Contact from './pages/Contact';  // Import Contact from src/pages
+import About from './pages/About';
+import Contact from './pages/Contact';
+import AdminLogin from './pages/AdminLogin';
+import EligibilityRules from './pages/EligibilityRules';
 import './App.css';
 
 function App() {
@@ -19,8 +21,10 @@ function App() {
           <Route path="/register" element={<DonorForm />} />
           <Route path="/request" element={<RequestForm />} />
           <Route path="/donors" element={<DonorList />} />
-          <Route path="/about" element={<About />} />        {/* About Page Route */}
-          <Route path="/contact" element={<Contact />} />    {/* Contact Page Route */}
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/eligibility" element={<EligibilityRules />} />
+          <Route path="/admin" element={<AdminLogin />} />
         </Routes>
       </div>
       <Footer />
