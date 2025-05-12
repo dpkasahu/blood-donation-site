@@ -15,13 +15,16 @@ const DonorForm = () => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+  e.preventDefault();
+  if (donor.name && donor.bloodGroup && donor.email && donor.dob) {
     const donors = JSON.parse(localStorage.getItem('donors')) || [];
     donors.push(donor);
     localStorage.setItem('donors', JSON.stringify(donors));
     setSubmitted(true);
     setDonor({ name: '', bloodGroup: '', email: '', dob: '' });
-  };
+  }
+};
+
 
   return (
     <div className="form-container">

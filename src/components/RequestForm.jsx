@@ -15,17 +15,16 @@ const RequestForm = () => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    if (request.name && request.bloodGroup && request.email && request.contact) {
-      setSubmitted(true);
-      setRequest({
-        name: '',
-        bloodGroup: '',
-        email: '',
-        contact: '',
-      });
-    }
-  };
+  e.preventDefault();
+  if (request.name && request.bloodGroup && request.email && request.contact) {
+    const requests = JSON.parse(localStorage.getItem('requests')) || [];
+    requests.push(request);
+    localStorage.setItem('requests', JSON.stringify(requests));
+    setSubmitted(true);
+    setRequest({ name: '', bloodGroup: '', email: '', contact: '' });
+  }
+};
+
 
   return (
     <div className="form-container">

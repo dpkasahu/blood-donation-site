@@ -6,8 +6,8 @@ const AdminEmailCheck = ({ onAdminAccess }) => {
   const [error, setError] = useState("");
 
   const handleCheck = () => {
-    const adminEmail = "admin@example.com";
-    const adminPassword = "admin123"; // set your admin password
+    const adminEmail = "deepika@gmail.com";
+    const adminPassword = "deepika123"; 
 
     if (
       email.trim().toLowerCase() === adminEmail &&

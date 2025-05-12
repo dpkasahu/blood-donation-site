@@ -1,5 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom';
-import './Home.css'; // Ensure this file exists
+import './Home.css'; 
 
 const Home = () => {
   const navigate = useNavigate();
@@ -20,7 +20,7 @@ const Home = () => {
           <button onClick={handleEligibilityClick}>
             Donor Eligibility
           </button>
-          <Link to="/admin" className="admin-btn">Admin Panel</Link>
+          {/* <Link to="/admin" className="admin-btn">Admin Panel</Link> */}
         </div>
       </div>
     </div>

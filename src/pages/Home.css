@@ -88,4 +88,105 @@ button {
 
 button:hover {
   background-color: #c9302c; /* Darker red on hover */
-}                                 
+}                                 @media (max-width: 768px) {
+  .home-content h2 {
+    font-size: 2rem; /* Smaller font size for headings */
+  }
+
+  .home-content p {
+    font-size: 1rem; /* Smaller font size for paragraphs */
+  }
+
+  .home-content blockquote {
+    font-size: 1rem; /* Adjust the quote font size */
+  }
+
+  .join-btn, .admin-btn {
+    padding: 10px 20px; /* Smaller buttons */
+    font-size: 14px; /* Smaller font size */
+  }
+
+  /* Adjust button text size for mobile screens */
+  button {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+
+  .overlay {
+    padding: 30px 10px; /* Less padding for smaller screens */
+  }
+
+  .home {
+    min-height: 80vh; /* Reduce height for smaller screens */
+  }
+
+  .home-content {
+    padding: 15px; /* Less padding */
+  }
+}
+
+/* For extra small screens like very small devices (portrait mobile) */
+@media (max-width: 480px) {
+  .home-content h2 {
+    font-size: 1.75rem; /* Adjust heading size even further */
+  }
+
+  .home-content p {
+    font-size: 0.9rem; /* Adjust paragraph size */
+  }
+
+  .join-btn, .admin-btn {
+    padding: 8px 15px; /* Smaller button size */
+    font-size: 12px; /* Further smaller button text */
+  }
+
+  button {
+    font-size: 14px; /* Further smaller button text */
+    padding: 7px 12px;
+  }
+
+  .overlay {
+    padding: 20px 5px; /* Further reduce padding */
+  }
+
+  .home-content blockquote {
+    font-size: 0.95rem; /* Adjust the quote font size */
+  }
+
+  .home {
+    min-height: 75vh; /* Make the home section shorter */
+  }
+}
+
+/* For larger screens (tablet and desktop) */
+@media (min-width: 1024px) {
+  .home {
+    min-height: 90vh; /* Keep the height as it was originally */
+  }
+
+  .home-content h2 {
+    font-size: 3rem; /* Larger font size for headings on large screens */
+  }
+
+  .home-content p {
+    font-size: 1.5rem; /* Larger font size for paragraphs */
+  }
+
+  .home-content blockquote {
+    font-size: 1.2rem; /* Larger font size for blockquotes */
+  }
+
+  .join-btn, .admin-btn {
+    padding: 14px 28px; /* Bigger buttons for larger screens */
+    font-size: 18px; /* Larger button text */
+  }
+
+  button {
+    font-size: 20px; /* Larger button text for desktop */
+    padding: 12px 24px;
+  }
+
+  .overlay {
+    padding: 70px 30px; /* Adjust padding for bigger screens */
+  }
+}

@@ -16,9 +16,9 @@ const Navbar = () => {
           <Link to="/">Home</Link>
           <Link to="/about">About Us</Link>
           <Link to="/contact">Contact</Link>
-          <Link to="/register">Register as Donor</Link>
-          <Link to="/request">Request Blood</Link>
-          <Link to="/donors">Donor List</Link>
+          <Link to="/admin" >Admin</Link>
+          <Link to="/register">Register</Link>
+          <Link to="/request">Request</Link>
         </div>
       </div>
     </nav>
