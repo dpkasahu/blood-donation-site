@@ -1,4 +1,4 @@
-import { Link, useNavigate } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 import './Home.css'; 
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
           <h2>Welcome to the Blood Donation Website</h2>
           <p>Your one-stop solution to donate or request blood. Help save lives!</p>
           <blockquote>
-            "The gift of blood is the gift of life. There is no substitute for human blood."
+            " DONATE BLOOD, SAVE LIFE "
           </blockquote>
           <button onClick={handleEligibilityClick}>
             Donor Eligibility

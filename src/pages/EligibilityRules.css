@@ -1,50 +1,44 @@
-/* EligibilityRules.css */
-
-/* Container styling */
 .eligibility-container {
-  width: 90%;
-  max-width: 800px;
-  margin: 20px auto; /* center the content */
-  padding: 20px;
-  background-color: #f9f9f9; /* light gray background */
-  border: 1px solid #ddd;    /* light border */
-  border-radius: 8px;        /* slightly rounded corners */
-  font-family: Arial, sans-serif;
-}
-
-/* Heading styling */
-.eligibility-container h1 {
-  font-size: 24px;
-  margin-bottom: 15px;
-  color: #cc0000; /* red color for emphasis */
+  padding: 2rem;
+  background-color: #c9acac;
   text-align: center;
 }
 
-/* Paragraph styling */
-.eligibility-container p {
-  font-size: 16px;
-  margin-bottom: 15px;
+.eligibility-title {
+  font-size: 2rem;
+  color: #c53030;
+  margin-bottom: 0.5rem;
 }
 
-/* List styling */
-.eligibility-list {
-  padding-left: 20px;
-  font-size: 16px;
+.eligibility-intro {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
 }
 
-/* List item spacing */
-.eligibility-list li {
-  margin-bottom: 10px;
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
 }
 
-/* Nested list styling */
-.eligibility-list ul {
-  margin-top: 5px;
-  padding-left: 20px;
-  list-style-type: circle;
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
 }
 
-/* Emphasized text (like <strong>) */
-.eligibility-list strong {
-  color: #cc0000; /* red for headings inside list */
+.card:hover {
+  transform: translateY(-5px);
+ 
+  background-color: #f3bcb8;
+}
+
+
+.icon {
+  font-size: 2rem;
+  color: #c53030;
+  margin-bottom: 0.8rem;
 }

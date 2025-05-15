@@ -77,7 +77,7 @@ const Contact = () => {
       
       <div className="contact-info">
         <h3>Our Office</h3>
-        <p>123 Blood Donation St, City, Country</p>
+        <p>Parvati Nagar Lane 1, Gunupur, India</p>
         <p>Email: info@blooddonation.org</p>
         <p>Phone: (123) 456-7890</p>
       </div>

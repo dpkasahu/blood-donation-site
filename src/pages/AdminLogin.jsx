@@ -13,7 +13,7 @@ const AdminLogin = ({ onAdminSuccess }) => {
   const [requests, setRequests] = useState([]);
 
   const handleLogin = () => {
-    if (email === "deepika@example.com" && password === "admin123") {
+    if (email === "deepika@gmail.com" && password === "deepika123") {
       setIsVerified(true);
       setError("");
 
